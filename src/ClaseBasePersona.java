@@ -52,7 +52,8 @@ public abstract class ClaseBasePersona {
     }
 
     // Métodos abstractos para obtener y establecer los valores de los atributos.
-    public abstract void listaPersonasRegistradas();
+
+    public abstract void agregarPersona();
 
     public abstract void promedioEdades();
 
@@ -60,6 +61,7 @@ public abstract class ClaseBasePersona {
 
     public abstract void CantidadFemenina();
 
-    public abstract void agregarPersona();
+    public abstract void listaPersonasRegistradas();
+
 }
 
