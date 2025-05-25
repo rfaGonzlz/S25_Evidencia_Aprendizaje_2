@@ -2,7 +2,8 @@
 // Clase derivadas de ClaseBasePersona.
 public class Persona extends ClaseBasePersona {
 
-  // Método constructor de la clase Persona.
+
+    // Método constructor de la clase Persona.
     public Persona() {
     }
 
@@ -11,20 +12,26 @@ public class Persona extends ClaseBasePersona {
         super(nombre, apellido, genero, edad); // Llama al constructor de la clase base ClaseBasePersona.
     }
 
-  // Métodos para obtener y establecer los valores de los atributos.
-    @Override
-    public void listaPersonasRegistradas() {}
+    // Métodos para obtener y establecer los valores de los atributos.
 
     @Override
-    public void promedioEdades() {}
+    public void agregarPersona() {
+    }
 
     @Override
-    public void CantidadMasculino() {}
+    public void promedioEdades() {
+    }
 
     @Override
-    public void CantidadFemenina() {}
+    public void CantidadMasculino() {
+    }
 
     @Override
-    public void agregarPersona() {}
+    public void CantidadFemenina() {
+    }
+
+    @Override
+    public void listaPersonasRegistradas() {
+    }
 
 }

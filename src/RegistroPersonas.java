@@ -5,7 +5,7 @@ import java.util.Scanner;
 // Clase derivadas de Persona.
 public class RegistroPersonas extends Persona {
 
-    private List<Persona> registroPersonas = new ArrayList<>(); // Lista de personas registradas.
+    private final List<Persona> registroPersonas = new ArrayList<>(); // Lista de personas registradas.
 
     // Método para agregar personas al registroPersonas.
     public void agregarPersona() {
